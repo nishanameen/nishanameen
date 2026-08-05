@@ -46,10 +46,10 @@ systems for schools. I've shipped two platforms to production so far, serving
 <b>1000+ users</b> across CBSE and State Board institutions.
 </p>
 <ul align="left">
-<li><b>Edmento AI</b> — replaced a pgvector RAG pipeline with a Karpathy inspired
+<li><b>Edmento AI</b> - replaced a pgvector RAG pipeline with a Karpathy inspired
 <b>LLM Wiki architecture</b> on Cloudflare Workers, compiling NCERT textbooks into
 schema driven knowledge pages for question paper and lesson generation</li>
-<li><b>Edmento Resolve</b> — a multilingual <b>voice AI agent</b> letting principals query
+<li><b>Edmento Resolve</b> - a multilingual <b>voice AI agent</b> letting principals query
 live school data in Malayalam or English, using Sarvam AI ASR/TTS and an NL to SQL
 engine over Neon PostgreSQL</li>
 <li>Focused on cost optimized multi tier LLM routing, async inference with FastAPI and SSE,
