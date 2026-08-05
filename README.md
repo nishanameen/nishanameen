@@ -100,7 +100,7 @@
     Add this file at .github/workflows/snake.yml in the nishanameen/nishanameen repo.
     It publishes the SVGs to an "output" branch, which the picture below reads from.
 
-    ~~~yaml
+    ```yaml
     name: Generate Contribution Snake
 
     on:
@@ -133,7 +133,7 @@
               build_dir: dist
             env:
               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    ~~~
+    ```
   -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nishanameen/nishanameen/output/snake-dark.svg">
