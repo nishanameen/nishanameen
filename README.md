@@ -99,10 +99,8 @@
     The snake SVGs come from a GitHub Action, not an external service.
     Add this file at .github/workflows/snake.yml in the nishanameen/nishanameen repo.
     It publishes the SVGs to an "output" branch, which the picture below reads from.
-
     ```yaml
     name: Generate Contribution Snake
-
     on:
       schedule:
         - cron: "0 0 * * *"
@@ -110,7 +108,6 @@
       push:
         branches:
           - main
-
     jobs:
       generate:
         runs-on: ubuntu-latest
@@ -125,7 +122,6 @@
               outputs: |
                 dist/snake.svg?palette=github-light&color_snake=#6E8B74&color_dots=#FFFFFF,#DCE5DC,#B6C8B8,#6E8B74
                 dist/snake-dark.svg?palette=github-dark&color_snake=#7E9E85&color_dots=#161B22,#2C382E,#47604C,#7E9E85
-
           - name: Push to output branch
             uses: crazy-max/ghaction-github-pages@v4
             with:
