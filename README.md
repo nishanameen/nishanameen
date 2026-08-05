@@ -7,9 +7,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="[BANNER_DARK_URL]">
-    <source media="(prefers-color-scheme: light)" srcset="[BANNER_LIGHT_URL]">
-    <img src="[BANNER_LIGHT_URL]" alt="Nishan Ameen K banner" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nishanameen/nishanameen/main/assets/banner-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nishanameen/nishanameen/main/assets/banner-light.png">
+    <img src="https://raw.githubusercontent.com/nishanameen/nishanameen/main/assets/banner-light.png" alt="Nishan Ameen K banner" width="100%">
   </picture>
 </div>
 
@@ -59,7 +59,7 @@
         </ul>
       </td>
       <td width="35%" valign="middle" align="center">
-        <img src="[ABOUT_IMAGE_URL]" alt="Nishan Ameen K" width="100%">
+        <img src="https://raw.githubusercontent.com/nishanameen/nishanameen/main/assets/about-photo.jpeg" alt="Nishan Ameen K" width="100%">
       </td>
     </tr>
   </table>
