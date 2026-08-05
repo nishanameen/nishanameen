@@ -152,7 +152,7 @@ GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 <h3>Connect</h3>
 <br>
 <a href="https://www.linkedin.com/in/nishanameen">
-<img src="https://img.shields.io/badge/LinkedIn-6E8B74?style=flat-square&logo=linkedin&logoColor=FFFFFF" alt="LinkedIn">
+<img src="https://raw.githubusercontent.com/nishanameen/nishanameen/main/assets/linkedin-badge.svg" alt="LinkedIn">
 </a>
 <a href="https://nishanameen.me">
 <img src="https://img.shields.io/badge/Portfolio-6E8B74?style=flat-square&logo=googlechrome&logoColor=FFFFFF" alt="Portfolio">
