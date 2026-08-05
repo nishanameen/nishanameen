@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Generate streak stats
-        uses: DenverCoder1/github-readme-streak-stats@main
+        uses: DenverCoder1/github-readme-streak-stats@v1.7.0
         with:
           options: user=nishanameen&hide_border=true&background=00000000&border=DCE5DC&stroke=DCE5DC&ring=6E8B74&fire=6E8B74&currStreakNum=6E8B74&currStreakLabel=7B8A7C&sideNums=6E8B74&sideLabels=7B8A7C&dates=7B8A7C&excludeDaysLabel=7B8A7C&disable_animations=true
           path: assets/streak.svg
