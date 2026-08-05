@@ -19,6 +19,7 @@ jobs:
         id: snake
         with:
           github_user_name: nishanameen
+          github_token: ${{ secrets.SNAKE_TOKEN }}
           outputs: |
             dist/snake.svg?palette=github-light&color_snake=#6E8B74&color_dots=#FFFFFF,#DCE5DC,#B6C8B8,#6E8B74
             dist/snake-dark.svg?palette=github-dark&color_snake=#7E9E85&color_dots=#161B22,#2C382E,#47604C,#7E9E85
