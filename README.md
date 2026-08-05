@@ -46,10 +46,10 @@ systems for schools. I've shipped two platforms to production so far, serving
 <b>1000+ users</b> across CBSE and State Board institutions.
 </p>
 <ul align="left">
-<li><b>Edmento AI</b> - replaced a pgvector RAG pipeline with a Karpathy inspired
+<li><b>Edmento AI</b> — replaced a pgvector RAG pipeline with a Karpathy inspired
 <b>LLM Wiki architecture</b> on Cloudflare Workers, compiling NCERT textbooks into
 schema driven knowledge pages for question paper and lesson generation</li>
-<li><b>Edmento Resolve</b> - a multilingual <b>voice AI agent</b> letting principals query
+<li><b>Edmento Resolve</b> — a multilingual <b>voice AI agent</b> letting principals query
 live school data in Malayalam or English, using Sarvam AI ASR/TTS and an NL to SQL
 engine over Neon PostgreSQL</li>
 <li>Focused on cost optimized multi tier LLM routing, async inference with FastAPI and SSE,
@@ -101,9 +101,12 @@ instead, using the same DenverCoder1/github-readme-streak-stats renderer.
 <h3>Contribution Snake</h3>
 <br>
 <!--
-The snake SVGs come from a GitHub Action, not an external service.
+The snake animation comes from a GitHub Action, not an external service.
 Add this file at .github/workflows/snake.yml in the nishanameen/nishanameen repo.
-It publishes the SVGs to an "output" branch, which the picture below reads from.
+It publishes GIFs (and SVGs) to an "output" branch, which the picture below reads from.
+GIFs are used here instead of the SVGs because GitHub freezes CSS animations on
+SVGs embedded via img/picture, which left the snake grid showing almost no cells.
+GIFs animate natively in img tags with no such freeze.
 ```yaml
 name: Generate Contribution Snake
 on:
@@ -127,6 +130,8 @@ github_user_name: nishanameen
 outputs: |
 dist/snake.svg?palette=github-light&color_snake=#6E8B74&color_dots=#FFFFFF,#DCE5DC,#B6C8B8,#6E8B74
 dist/snake-dark.svg?palette=github-dark&color_snake=#7E9E85&color_dots=#161B22,#2C382E,#47604C,#7E9E85
+dist/snake.gif?palette=github-light&color_snake=#6E8B74&color_dots=#FFFFFF,#DCE5DC,#B6C8B8,#6E8B74
+dist/snake-dark.gif?palette=github-dark&color_snake=#7E9E85&color_dots=#161B22,#2C382E,#47604C,#7E9E85
 - name: Push to output branch
 uses: crazy-max/ghaction-github-pages@v4
 with:
@@ -137,9 +142,9 @@ GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 -->
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nishanameen/nishanameen/output/snake-dark.svg">
-<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nishanameen/nishanameen/output/snake.svg">
-<img src="https://raw.githubusercontent.com/nishanameen/nishanameen/output/snake.svg" alt="Contribution snake animation" width="100%">
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nishanameen/nishanameen/output/snake-dark.gif">
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nishanameen/nishanameen/output/snake.gif">
+<img src="https://raw.githubusercontent.com/nishanameen/nishanameen/output/snake.gif" alt="Contribution snake animation" width="100%">
 </picture>
 </div>
 
