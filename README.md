@@ -1,16 +1,164 @@
-## Hi there 👋
-
 <!--
-**nishanameen/nishanameen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+  README for github.com/nishanameen (profile repository)
+  Palette: Porcelain & Sage  |  6E8B74 accent, 1D2320 deep, 7B8A7C muted, DCE5DC / ECF1EC tints
+  Still to replace: [BANNER_LIGHT_URL], [BANNER_DARK_URL], [ABOUT_IMAGE_URL]
+  (upload banner-light.png, banner-dark.png and your About photo to the repo first, then paste their raw URLs)
 -->
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="[BANNER_DARK_URL]">
+    <source media="(prefers-color-scheme: light)" srcset="[BANNER_LIGHT_URL]">
+    <img src="[BANNER_LIGHT_URL]" alt="Nishan Ameen K banner" width="100%">
+  </picture>
+</div>
+
+<div align="center">
+  <h1>Hey there, I'm Nishan Ameen K</h1>
+</div>
+
+<div align="center">
+  <a href="https://nishanameen.me">
+    <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=2600&pause=800&color=6E8B74&center=true&vCenter=true&width=560&height=45&lines=AI+Engineer;LLM+%26+Voice+AI+Systems;Building+for+EdTech;MCP+Server+Developer" alt="AI Engineer, LLM and Voice AI Systems, Building for EdTech, MCP Server Developer">
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://img.shields.io/github/followers/nishanameen?style=flat-square&label=Followers&labelColor=1D2320&color=6E8B74&logo=github&logoColor=FFFFFF" alt="GitHub followers">
+  <img src="https://img.shields.io/github/stars/nishanameen?affiliations=OWNER&style=flat-square&label=Total%20Stars&labelColor=1D2320&color=6E8B74&logo=github&logoColor=FFFFFF" alt="Total stars">
+  <!--
+    komarev ghpvc supports username, label, color, style, base, abbreviated only.
+    It has no labelColor param, so its left side keeps the service default grey.
+    For a two tone counter that matches the palette, swap in:
+    https://visitor-badge.laobi.icu/badge?page_id=nishanameen.nishanameen&left_text=Profile%20Views&left_color=1D2320&right_color=6E8B74
+  -->
+  <img src="https://komarev.com/ghpvc/?username=nishanameen&label=Profile+Views&color=6E8B74&style=flat-square" alt="Profile views">
+</div>
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="65%" valign="top">
+        <h3 align="left">About Me</h3>
+        <p align="left">
+          I'm an <b>AI Engineer at Edmento Technologies</b>, building production Generative AI
+          systems for schools. I've shipped two platforms to production so far, serving
+          <b>1000+ users</b> across CBSE and State Board institutions.
+        </p>
+        <ul align="left">
+          <li><b>Edmento AI</b> — replaced a pgvector RAG pipeline with a Karpathy inspired
+              <b>LLM Wiki architecture</b> on Cloudflare Workers, compiling NCERT textbooks into
+              schema driven knowledge pages for question paper and lesson generation</li>
+          <li><b>Edmento Resolve</b> — a multilingual <b>voice AI agent</b> letting principals query
+              live school data in Malayalam or English, using Sarvam AI ASR/TTS and an NL to SQL
+              engine over Neon PostgreSQL</li>
+          <li>Focused on cost optimized multi tier LLM routing, async inference with FastAPI and SSE,
+              and secure multi tenant deployments with RLS and JWT</li>
+          <li><b>MCA in AI &amp; ML</b>, Lovely Professional University</li>
+          <li>Based in <b>Malappuram, Kerala, India</b> &nbsp;·&nbsp; More at <a href="https://nishanameen.me">nishanameen.me</a></li>
+        </ul>
+      </td>
+      <td width="35%" valign="middle" align="center">
+        <img src="[ABOUT_IMAGE_URL]" alt="Nishan Ameen K" width="100%">
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div align="center">
+  <h3>Tech Stack</h3>
+  <br>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,tensorflow,pytorch,fastapi,docker,git,postgres,react,js&theme=light&perline=9" alt="Python, TensorFlow, PyTorch, FastAPI, Docker, Git, PostgreSQL, React, JavaScript">
+  </a>
+  <br><br>
+  <!--
+    Skill Icons has no langchain icon yet (open request: tandpfun/skill-icons issue 1673),
+    so LangChain is rendered as a shields.io badge using the simple icons langchain slug.
+  -->
+  <img src="https://img.shields.io/badge/LangChain-6E8B74?style=flat-square&logo=langchain&logoColor=FFFFFF" alt="LangChain">
+</div>
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" valign="top">
+        <img width="100%" src="https://streak-stats.demolab.com?user=nishanameen&hide_border=true&background=00000000&border=DCE5DC&stroke=DCE5DC&ring=6E8B74&fire=6E8B74&currStreakNum=6E8B74&currStreakLabel=7B8A7C&sideNums=6E8B74&sideLabels=7B8A7C&dates=7B8A7C&excludeDaysLabel=7B8A7C" alt="GitHub streak stats">
+      </td>
+      <td width="50%" valign="top">
+        <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=nishanameen&custom_title=Contribution%20Activity&bg_color=00000000&title_color=6E8B74&color=7B8A7C&line=6E8B74&point=6E8B74&area=true&area_color=DCE5DC&hide_border=true&radius=8" alt="Contribution activity graph">
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div align="center">
+  <h3>Contribution Snake</h3>
+  <br>
+  <!--
+    The snake SVGs come from a GitHub Action, not an external service.
+    Add this file at .github/workflows/snake.yml in the nishanameen/nishanameen repo.
+    It publishes the SVGs to an "output" branch, which the picture below reads from.
+
+    ~~~yaml
+    name: Generate Contribution Snake
+
+    on:
+      schedule:
+        - cron: "0 0 * * *"
+      workflow_dispatch:
+      push:
+        branches:
+          - main
+
+    jobs:
+      generate:
+        runs-on: ubuntu-latest
+        permissions:
+          contents: write
+        steps:
+          - name: Generate snake animation
+            uses: Platane/snk@v3
+            id: snake
+            with:
+              github_user_name: nishanameen
+              outputs: |
+                dist/snake.svg?palette=github-light&color_snake=#6E8B74&color_dots=#FFFFFF,#DCE5DC,#B6C8B8,#6E8B74
+                dist/snake-dark.svg?palette=github-dark&color_snake=#7E9E85&color_dots=#161B22,#2C382E,#47604C,#7E9E85
+
+          - name: Push to output branch
+            uses: crazy-max/ghaction-github-pages@v4
+            with:
+              target_branch: output
+              build_dir: dist
+            env:
+              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    ~~~
+  -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nishanameen/nishanameen/output/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nishanameen/nishanameen/output/snake.svg">
+    <img src="https://raw.githubusercontent.com/nishanameen/nishanameen/output/snake.svg" alt="Contribution snake animation" width="100%">
+  </picture>
+</div>
+
+<div align="center">
+  <h3>Connect</h3>
+  <br>
+  <a href="https://www.linkedin.com/in/nishanameen">
+    <img src="https://img.shields.io/badge/LinkedIn-6E8B74?style=flat-square&logo=linkedin&logoColor=FFFFFF" alt="LinkedIn">
+  </a>
+  <a href="https://nishanameen.me">
+    <img src="https://img.shields.io/badge/Portfolio-6E8B74?style=flat-square&logo=googlechrome&logoColor=FFFFFF" alt="Portfolio">
+  </a>
+  <a href="https://instagram.com/nshn.amn">
+    <img src="https://img.shields.io/badge/Instagram-6E8B74?style=flat-square&logo=instagram&logoColor=FFFFFF" alt="Instagram">
+  </a>
+  <a href="mailto:nishanameenk@gmail.com">
+    <img src="https://img.shields.io/badge/Email-6E8B74?style=flat-square&logo=gmail&logoColor=FFFFFF" alt="Email">
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ECF1EC,50:B6C8B8,100:6E8B74&height=140&section=footer&reversal=false" alt="Waving footer" width="100%">
+</div>
